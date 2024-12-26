@@ -270,7 +270,7 @@ bool InitImGuiVulkan()
 
     ImGui_ImplVulkan_Init(&init_info, g_VkRenderPass);
 
-    // Upload fonts (placeholder: removed fonts references as requested)
+    // Upload fonts 
     {
         // Begin a temporary command buffer for font upload
         // Command pool creation, etc., omitted for brevity
